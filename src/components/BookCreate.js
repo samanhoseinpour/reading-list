@@ -1,7 +1,7 @@
-import { Fragment, useState } from 'react';
+import { useState } from "react";
 
 const BookCreate = ({ onCreate }) => {
-  const [title, setTitle] = useState('');
+  const [title, setTitle] = useState("");
 
   const handleChange = (event) => {
     setTitle(event.target.value);
@@ -11,7 +11,8 @@ const BookCreate = ({ onCreate }) => {
     e.preventDefault();
 
     onCreate(title);
-    setTitle('');
+
+    setTitle("");
   };
 
   return (
