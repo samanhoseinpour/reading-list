@@ -1,3 +1,16 @@
 {
-  "books": []
+  "books": [
+    {
+      "title": "Harry potter",
+      "id": 1
+    },
+    {
+      "title": "js",
+      "id": 2
+    },
+    {
+      "title": "yup",
+      "id": 3
+    }
+  ]
 }
